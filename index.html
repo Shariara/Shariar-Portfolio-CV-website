@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shariar Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/b1df2f12b9.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#services'>Services</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                    
+                </ul>
+               
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hello, I'm Shar<span>i</span>ar Ahmed</h1>
+                <h2>From Brooklyn, NY<br>Lives in Atlanta, GA <br><br> <h5>Tech Stack | <i class="fa-brands fa-js"></i> &nbsp  <i class="fa-brands fa-react"></i> &nbsp   <i class="fa-brands fa-html5"></i>  &nbsp   <i class="fa-brands fa-css3-alt"></i> &nbsp   <i class="fa-brands fa-python"></i> &nbsp   <i class="fa-brands fa-angular"></i>&nbsp   <i class="fa-brands fa-node-js"></i></h2>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container1"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <div class="sub-title">
+                        <h1>About Me</h1>
+                        <div class="Para">
+                            <p>More than a Self Taught Developer...<br>Join me in my Growth Mindset Journey...</p>
+                            
+                        </div>
+                        <div class="Tab-Titles">
+                            <p class="Tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="Tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="Tab-links" onclick="opentab('Education')">Education</p>                                
+                        </div>
+                        <div class="Tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="Tab-contents" id="Experience">
+                            <ul>
+                                
+                                <li><span>2022-2023</span><br>Atlanta Police Department</li>
+                                <li><span>2020-2022</span><br>NYC Department of City Wide Adminstrative Services</li>
+                                <li><span>2019-2020</span><br>OBT</li>
+                            </ul>
+                        </div>
+                        <div class="Tab-contents" id="Education">
+                            <ul>
+                                <li><span>2017-2019 Bachelor of Science Electrical Engineering </span><br><br> University at Buffalo </li>
+                                <li><span>2016-2017 Bachelor of Science Electrical Engineering</span><br>Buffalo State College</li>
+                                <li><span>2012-2016</span><br>Benjamin Banneker Academy </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------SERVICES-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services and My Projects </h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-code"></i> <!---FontawsomeIcon just a icon near web design section-->
+                <h2>Web Design</h2>
+                <p>
+                    Delivering high-quality,
+                    visually appealing, and functional websites. Proficient in front-end  technologies,
+                      I specialize in creating dynamic and responsive web applications. 
+                      Adept at collaborating with clients to understand their unique needs
+                       and translating those requirements into innovative digital solutions. 
+                    My commitment to clean code, user-centric design, and staying abreast of 
+                    emerging technologies ensures the delivery of cutting-edge websites that 
+                    elevate user experiences. Let me bring your vision to life with my expertise in web development.</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i> <!---same reason as fontawsome-->
+                <h2>UI/UX Design</h2>
+                <p> Choose a UI/UX designer, adept at crafting engaging and intuitive user experiences. 
+                    With a keen eye for detail.
+                     I excel in creating visually stunning and functional designs. 
+                     Proficient in industry-leading design tools, 
+                     I leverage my expertise to transform concepts into compelling interfaces.
+                      Collaborative and client-focused, I ensure designs align seamlessly with brand identity and user expectations.
+                     Elevate your digital presence with my innovative UI/UX solutions, combining aesthetics and usability for a memorable and impactful projects.</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div> 
+                <i class="fa-brands fa-app-store"></i> <!--same stuff my guy-->
+                <h2>App Design</h2>
+                <p>Experienced app software developer skilled in crafting visually appealing and mobile-centric interfaces. Proficient in turning concepts into functional mobile applications. Elevate your app's user experience with my keen design sensibilities and technical proficiency.</p>
+                <a href="#">Learn More </a>
+            </div>
+    </div>
+    </div>
+</div>
+<!------Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <div class="worklist">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Ride Share App</h3>
+                    <p>Work on my project to create my own rideshare app.Used React Native for Crossplatform Usage.Designed a Database 
+                        using SQL.
+                        The Program is still under development,I saw a problem with how drivers were 
+                        not being compensated for equal pay and decided to do my humble part to create a 
+                        solution.I am passionate about it as that how I supported my self 
+                        when I was a Student.So it is a story I resonate with.
+                        As this was my first project this was a simple prototype as it is still under development.
+                       
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.gif">
+                <div class="layer">
+                    <h3>IOT Coffee Project</h3>
+                    <p>The app connects you with many talented people around the world</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Budget Tracker Web Application</h3>
+                    <p>Developed a sophisticated budget tracking website, leveraging self-taught expertise in front-end development.
+                         Employed REACT to ensure seamless user experience.
+                          Utilized backend technologies for robust functionality. 
+                          The site integrates efficient data storage and retrieval. 
+                          The result  an simple intuitively designed platform that combines visual appeal with technical prowess,
+                           facilitating seamless financial management.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+<!-----------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> shariar001ahmed@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (347)-222-5449</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shariar-ahmed/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shariara"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/shariar.ahmed.3551/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="'text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!------trying to create a tabbed navigation where clicking 
+    on a tab link shows the corresponding tab content and
+    hides the others. You can achieve this
+    by modifying your opentab function to add the active-link
+    and active-tab classes to the clicked tab link and its 
+    corresponding tab content. Here's how you can do it-----> 
+
+<script>
+// made it work just that section that allows the Tab to display the information and corresponds that information to the tab while hiding the information from the other tabs
+
+
+var Tablinks = document.getElementsByClassName('Tab-links');
+var Tabcontents = document.getElementsByClassName('Tab-contents');
+
+function opentab(TabName) {
+    // Remove classes from all links and contents
+    for (var Tablink of Tablinks) {
+        Tablink.classList.remove("active-link");
+    }
+    for (var Tabcontent of Tabcontents) {
+        Tabcontent.classList.remove("active-tab");
+    }
+
+    // Add classes to the clicked link and its corresponding content
+    document.querySelector(`.Tab-links[onclick="opentab('${TabName}')"]`).classList.add("active-link");
+    document.getElementById(TabName).classList.add("active-tab");
+}                    
+
+        
+        
+        
+        
+ </script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbyD3bEGguR43V5VJduEy_7_Qla2TACLSKgiF0W3tCm3jdTwV75Sd1ovfeokb1iyF9n3wg/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
